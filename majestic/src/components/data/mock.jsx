@@ -1,5 +1,14 @@
 // Mock data
 import Burger from "../../assets/Menu/Burger.png";
+import Milkshakes from "../../assets/Menu/Milkshake.png";
+import Smoothie from "../../assets/Menu/Smoothie.png";
+import Tacos from "../../assets/Menu/Tacos.png";
+import Smash from "../../assets/Menu/Smash.png";
+import Sandwichs from "../../assets/Menu/Sandwichs.png";
+import TexMex from "../../assets/Menu/TexMex.png";
+import Tarte from "../../assets/Menu/Tarte.png";
+import Tiramisu from "../../assets/Menu/Tiramisu.png";
+import Glaces from "../../assets/Menu/Glaces.png";
 
 
 export const menuCategories = [
@@ -34,10 +43,10 @@ export const menuCategories = [
     ]
   },
   {
-    id: "pates",
-    name: "Pâtes",
-    description: "PÂTES",
-    image: "https://cdn.prod.website-files.com/66ffa6e40ee59c79be77e19e/672a6de63db51b60e5a60989_BGZ%20-%20PASTA%20-%20BOLOGNAISE.avif",
+    id: "tacos",
+    name: "Tacos",
+    description: "TACOS",
+    image: Tacos,
     items: [
       { name: "Pâtes Bolognaise", price: "13€", description: "Tagliatelles à la sauce bolognaise maison" },
       { name: "Carbonara", price: "14€", description: "Spaghettis carbonara à l'italienne" }
@@ -57,7 +66,7 @@ export const menuCategories = [
     id: "burgers-smashs",
     name: "Burgers Smashs",
     description: "BURGERS SMASHS",
-    image: "https://cdn.prod.website-files.com/66ffa6e40ee59c79be77e19e/672a6e00e98bb11eb540de5f_BEE%20GEES%20-%20SMASH%20-%20CHEVRE%20MIEL.avif",
+    image: Smash,
     items: [
       { name: "Smash Chèvre Miel", price: "17€", description: "Double smash, chèvre, miel, roquette" },
       { name: "Triple Smash", price: "19€", description: "Triple smash beef, triple fromage" }
@@ -67,7 +76,7 @@ export const menuCategories = [
     id: "sandwichs",
     name: "Sandwichs Maison",
     description: "SANDWICHS",
-    image: "https://cdn.prod.website-files.com/66ffa6e40ee59c79be77e19e/672a6df650de479a73f6416f_BGZ%20-%20SANDWICHS%20-%20BUFALLO.avif",
+    image: Sandwichs,
     items: [
       { name: "Buffalo Chicken", price: "12€", description: "Sandwich au poulet buffalo, salade, tomate" },
       { name: "Club House", price: "13€", description: "Triple sandwich club house maison" }
@@ -75,29 +84,20 @@ export const menuCategories = [
   },
   {
     id: "tex-mex",
-    name: "Tex Mex",
+    name: "TEX MEX",
     description: "TEX MEX",
-    image: "https://cdn.prod.website-files.com/66ffa6e40ee59c79be77e19e/672a6e113de06d1b3ef37df7_MOZZA%20STICKS.avif",
+    image: TexMex,
     items: [
       { name: "Mozzarella Sticks", price: "8€", description: "Bâtonnets de mozzarella panés, sauce ranch" },
       { name: "Quesadilla", price: "11€", description: "Tortilla au fromage, guacamole maison" }
     ]
   },
-  {
-    id: "fried-chicken",
-    name: "Fried Chicken",
-    description: "FRIED CHICKEN",
-    image: "https://cdn.prod.website-files.com/66ffa6e40ee59c79be77e19e/672a6dd18d759d476d8d3dbb_BGZ%20-%20FRIED%20CHICKEN%20DUO%20BOX%20-%20CHICKEN%20MIX.avif",
-    items: [
-      { name: "Duo Box Chicken Mix", price: "14€", description: "Box poulet frit, frites, sauce au choix" },
-      { name: "Wings BBQ", price: "10€", description: "Ailes de poulet sauce BBQ maison" }
-    ]
-  },
+
   {
     id: "smoothies",
     name: "Smoothies",
     description: "SMOOTHIES",
-    image: "https://cdn.prod.website-files.com/66ffa6e40ee59c79be77e19e/672a6e055aa2ff625b3d7956_BGZ%20-%20SMOOTHIE%20FRAISE.avif",
+    image: Smoothie,
     items: [
       { 
         name: "Smoothie Fraise", 
@@ -135,37 +135,28 @@ export const menuCategories = [
     id: "milkshakes",
     name: "Milkshakes",
     description: "MILKSHAKES",
-    image: "https://cdn.prod.website-files.com/66ffa6e40ee59c79be77e19e/672a6ddfad4fa311e2c0620a_MILKSHAKE%20FRAISE.avif",
+    image: Milkshakes,
     items: [
       { name: "Milkshake Fraise", price: "7€", description: "Milkshake à la fraise, chantilly maison" },
       { name: "Milkshake Vanille", price: "7€", description: "Milkshake vanille bourbon, caramel" }
     ]
   },
   {
-    id: "cheese-cakes",
-    name: "Cheese Cakes",
-    description: "CHEESE CAKE",
-    image: "https://cdn.prod.website-files.com/66ffa6e40ee59c79be77e19e/672a6dc1057d9697131a85a3_CHEESE%20CAKE%20SNICKERS.avif",
+    id: "Tarte aux Daim",
+    name: "Tarte aux Daim",
+    description: "Tarte aux Daim",
+    image: Tarte,
     items: [
       { name: "Cheese Cake Snickers", price: "8€", description: "Cheese cake au Snickers, coulis caramel" },
       { name: "Cheese Cake Fraise", price: "8€", description: "Cheese cake aux fraises fraîches" }
     ]
   },
-  {
-    id: "crepes",
-    name: "Crêpes",
-    description: "CRÊPES",
-    image: "https://cdn.prod.website-files.com/66ffa6e40ee59c79be77e19e/672a6dc9aa2690a8d15855fe_BGZ%20-%20CREPES%20CARAMEL%20BEURRE%20SALE.avif",
-    items: [
-      { name: "Crêpe Caramel Beurre Salé", price: "7€", description: "Crêpe au caramel beurre salé maison" },
-      { name: "Crêpe Nutella", price: "6€", description: "Crêpe au Nutella et chantilly" }
-    ]
-  },
+
   {
     id: "tiramisus",
     name: "Tiramisus",
     description: "TIRAMISU",
-    image: "https://cdn.prod.website-files.com/66ffa6e40ee59c79be77e19e/672a6d681e9b246bceaa1f4b_BGZ%20-%20TIRAMISU%20MANGUE.avif",
+    image: Tiramisu,
     items: [
       { name: "Tiramisu Mangue", price: "7€", description: "Tiramisu à la mangue fraîche" },
       { name: "Tiramisu Classique", price: "7€", description: "Tiramisu traditionnel italien" }
@@ -175,7 +166,7 @@ export const menuCategories = [
     id: "glaces",
     name: "Glaces",
     description: "GLACES",
-    image: "https://cdn.prod.website-files.com/66ffa6e40ee59c79be77e19e/672a6e0bbc484d3fee4b7d21_FROST%20-%20FRAISE.avif",
+    image: Glaces,
     items: [
       { name: "Glace Fraise", price: "5€", description: "Glace artisanale à la fraise" },
       { name: "Coupe Glacée", price: "8€", description: "Trois boules, fruits frais, chantilly" }

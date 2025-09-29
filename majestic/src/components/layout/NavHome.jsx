@@ -71,7 +71,7 @@ const NavHome = () => {
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
           <div className="md:hidden mt-4 pb-4 border-t border-gray-200 font-veneer">
-            <div className="flex flex-col space-y-2 mt-4">
+            <div className="flex flex-col items-center space-y-4 mt-4">
               {navigation.map((item) => (
                 <Link
                   key={item.name}
