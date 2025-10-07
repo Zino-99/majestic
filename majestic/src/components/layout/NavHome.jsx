@@ -22,7 +22,7 @@ const NavHome = () => {
           <Link to="/" className="flex-shrink-0">
             <div className="flex items-center px-12">
               <img
-                src="/Nom.png"
+                src="/Majestic.png"
                 alt="Le Majestic food"
                 className="h-24 w-auto transition-transform duration-300 hover:scale-105"
               />
@@ -30,7 +30,7 @@ const NavHome = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden normal-case md:flex space-x-8 font-veneer mr-10">
+          <div className="hidden normal-case md:flex space-x-8  mr-10">
             {navigation.map((item) => (
               <Link
                 key={item.name}
@@ -70,7 +70,7 @@ const NavHome = () => {
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 border-t border-gray-200 font-veneer">
+          <div className="md:hidden mt-4 pb-4 border-t border-gray-200 ">
             <div className="flex flex-col items-center space-y-4 mt-4">
               {navigation.map((item) => (
                 <Link

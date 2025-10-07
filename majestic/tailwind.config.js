@@ -8,7 +8,9 @@ export default {
     extend: {
         fontFamily: {
           veneer: ['Veneer', 'sans-serif'],       // pour navigation, texte normal
-          veneerThree: ['VeneerThree', 'sans-serif'], 
+          veneerThree: ['VeneerThree', 'sans-serif'],
+          pacifico: ['Pacifico', 'cursive'],
+          Mistrully: ['Mistrully', 'sans-serif'] 
         }
     },
   },

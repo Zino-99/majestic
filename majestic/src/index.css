@@ -5,32 +5,22 @@
 /* Variante normale */
 @font-face {
   font-family: 'Veneer';
-  src: url('/fonts/Veneer-Regular.ttf') format('truetype');
+  src: url('/fonts/veneer.ttf') format('truetype');
   font-weight: 400;
-  font-style: normal;
-}
-
-/* Variante gras */
-@font-face {
-  font-family: 'Veneer';
-  src: url('/fonts/Veneer-Bold.ttf') format('truetype');
-  font-weight: 700;
   font-style: normal;
 }
 
 /* Variante décorative / spéciale */
 @font-face {
-  font-family: 'VeneerThree';
-  src: url('/fonts/VeneerThree.ttf') format('truetype');
+  font-family: 'Pacifico';
+  src: url('/fonts/pacifico.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
-/* Classes utilitaires pour appliquer les fonts */
-.font-veneer {
-  font-family: 'Veneer', sans-serif;
-}
-
-.font-veneer-three {
-  font-family: 'VeneerThree', sans-serif;
+@font-face {
+  font-family: 'Mistrully';
+  src: url('/fonts/Mistrully.ttf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
